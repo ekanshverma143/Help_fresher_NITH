@@ -1,0 +1,56 @@
+
+intent('(hello|hi alan|hi)', p => {
+    p.play('(hello first year|hi freshie)');
+});
+
+intent('How to check my (R D|roll direct)', 'who is my r d',p=> {
+p.play('you can check your r d at nith.netlify.app');
+});
+intent('how (would|can) i (email|contact) my r d',p=>{
+    p.play('your R D (have same email as of yours ,just subtract 1 from first two digits of your email i d|can contact you if you write him an email)');
+    
+});
+intent('what does this app do?','how does this work?','what can you do','what can i do here?','how to use this app?',p=>{
+    p.play('i am here to help first year students as they are new to college.');
+   
+ p.play("I can help  you in finding your R d ,just say , how to email my R D ");
+            p.play("i can provide you number of dean academic");
+            p.play("i can tell you names of cultural clubs in N I T Hamirpur");
+            }
+       );
+intent('what is the (number|mobile number|phone number) of dean academic?',p=>{
+    p.play("please note,01972 254006 - professor ram naresh kumar,");
+    p.play("you may also require his email i d , so here you go, dac@nith.ac.in");
+});
+intent('what are the names of cultural clubs at n i t hamirpur','how many cultural clubs are in n i t hamirpur','cultural clubs','cultural clubs in n i t hamirpur',p=>{
+    p.play("there are 15 clubs in my knoweledge");
+    p.play("organisation club");
+     p.play("music club");
+     p.play("P r club");
+     p.play("dance club");
+     p.play("finearts club");
+     p.play("discipline club");
+    p.play("technical club");
+     p.play("english  club");
+     p.play("i n s and control club");
+     p.play("decoration club");
+    p.play("hindi club");
+     p.play("informals club");
+     p.play("pixonoids ");
+     p.play("dramatics club");
+     p.play("web team");
+    p.play("anything else?");
+    
+});
+intent('how to join (clubs|cultural clubs)',p=>{
+       p.play("each clubs will take interview for the fresher according to there procedure");
+       });
+intent('how to get time table of my classes','hoe to check time table','timetable',p=>{
+    p.play("you can check college website for this at n i t h dot a c dot in");
+});
+intent('online classes',p=>{
+    p.play("online classes will be persued through google meet");
+});
+intent('online classes link','how will i get online classes link',p=>{
+    p.play("teacher will send you classes link through your official emails");
+});
