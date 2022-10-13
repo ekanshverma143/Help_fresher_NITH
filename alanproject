@@ -26,7 +26,7 @@ intent('what are the names of cultural clubs at n i t hamirpur','how many cultur
     p.play("there are 15 clubs in my knoweledge");
     p.play("organisation club");
      p.play("music club");
-     p.play("P r club");
+     p.play("P R club");
      p.play("dance club");
      p.play("finearts club");
      p.play("discipline club");
@@ -51,6 +51,6 @@ intent('how to get time table of my classes','hoe to check time table','timetabl
 intent('online classes',p=>{
     p.play("online classes will be persued through google meet");
 });
-intent('online classes link','how will i get online classes link',p=>{
-    p.play("teacher will send you classes link through your official emails");
+intent('Where will be the classes ','Where are classrooms',p=>{
+    p.play("Lecture Hall Complex");
 });
